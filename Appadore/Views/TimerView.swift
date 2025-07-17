@@ -22,7 +22,7 @@ struct TimerView: View {
             ScrollView(.vertical) {
                 VStack {
                     HStack(alignment: .center) {
-                        Text("\(1)")
+                        Text("\(appManager.currentQuestionIndex + 1)")
                             .font(.system(size: 14))
                             .padding(10)
                             .foregroundStyle(Color.white)
@@ -125,12 +125,6 @@ struct TimerView: View {
             .ignoresSafeArea(edges: .top)
         }
         .navigationBarBackButtonHidden(true)
-    }
-    
-    private func formatTime(_ seconds: Int) -> String {
-        let mins = seconds / 60
-        let secs = seconds % 60
-        return String(format: "%02d:%02d", mins, secs)
     }
     
     private func buttonBackground(option: CountryOption) -> Color {

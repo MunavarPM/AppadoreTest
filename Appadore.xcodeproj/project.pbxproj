@@ -6,17 +6,42 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		5E7D456B2E28CEC1007A6B7A /* AppadoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7D45672E28CEC1007A6B7A /* AppadoreApp.swift */; };
+		5E7D456D2E28CEC1007A6B7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E7D45682E28CEC1007A6B7A /* Assets.xcassets */; };
+		5E7D45772E28CF5C007A6B7A /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7D45762E28CF5C007A6B7A /* ScheduleView.swift */; };
+		5E7D457D2E28D55D007A6B7A /* questions.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E7D457C2E28D55D007A6B7A /* questions.json */; };
+		5E7D45812E28D8EA007A6B7A /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7D45802E28D8EA007A6B7A /* AppManager.swift */; };
+		5E7D45852E28E200007A6B7A /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7D45842E28E200007A6B7A /* Color+Extensions.swift */; };
+		5E7D45872E28EAC5007A6B7A /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7D45862E28EAC5007A6B7A /* View+Extensions.swift */; };
+		5E7D458B2E28EAFE007A6B7A /* StrokeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7D458A2E28EAFE007A6B7A /* StrokeModifier.swift */; };
+		5E7D458F2E28F5EC007A6B7A /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7D458E2E28F5EC007A6B7A /* TimerView.swift */; };
+		5E7D45912E28FA61007A6B7A /* FlagsChallengeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7D45902E28FA61007A6B7A /* FlagsChallengeHeader.swift */; };
+		5E7D45932E290A65007A6B7A /* CustomRoundedShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7D45922E290A65007A6B7A /* CustomRoundedShape.swift */; };
+		5E7D45972E291154007A6B7A /* FlagsChallenge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7D45962E291154007A6B7A /* FlagsChallenge.swift */; };
+		5E7D45992E2951A3007A6B7A /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7D45982E2951A3007A6B7A /* GameOverView.swift */; };
+		5E7D459B2E2951AF007A6B7A /* TotalScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7D459A2E2951AF007A6B7A /* TotalScoreView.swift */; };
+		5E7D45B82E296C95007A6B7A /* ScheduleStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7D45B72E296C95007A6B7A /* ScheduleStorage.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		5E7D453A2E28C833007A6B7A /* Appadore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appadore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E7D45672E28CEC1007A6B7A /* AppadoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppadoreApp.swift; sourceTree = "<group>"; };
+		5E7D45682E28CEC1007A6B7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E7D45762E28CF5C007A6B7A /* ScheduleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		5E7D457C2E28D55D007A6B7A /* questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = questions.json; sourceTree = "<group>"; };
+		5E7D45802E28D8EA007A6B7A /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
+		5E7D45842E28E200007A6B7A /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		5E7D45862E28EAC5007A6B7A /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		5E7D458A2E28EAFE007A6B7A /* StrokeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrokeModifier.swift; sourceTree = "<group>"; };
+		5E7D458E2E28F5EC007A6B7A /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		5E7D45902E28FA61007A6B7A /* FlagsChallengeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagsChallengeHeader.swift; sourceTree = "<group>"; };
+		5E7D45922E290A65007A6B7A /* CustomRoundedShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomRoundedShape.swift; sourceTree = "<group>"; };
+		5E7D45962E291154007A6B7A /* FlagsChallenge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagsChallenge.swift; sourceTree = "<group>"; };
+		5E7D45982E2951A3007A6B7A /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		5E7D459A2E2951AF007A6B7A /* TotalScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalScoreView.swift; sourceTree = "<group>"; };
+		5E7D45B72E296C95007A6B7A /* ScheduleStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		5E7D453C2E28C833007A6B7A /* Appadore */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Appadore;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5E7D45372E28C833007A6B7A /* Frameworks */ = {
@@ -32,7 +57,7 @@
 		5E7D45312E28C833007A6B7A = {
 			isa = PBXGroup;
 			children = (
-				5E7D453C2E28C833007A6B7A /* Appadore */,
+				5E7D456A2E28CEC1007A6B7A /* Appadore */,
 				5E7D453B2E28C833007A6B7A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +68,116 @@
 				5E7D453A2E28C833007A6B7A /* Appadore.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5E7D456A2E28CEC1007A6B7A /* Appadore */ = {
+			isa = PBXGroup;
+			children = (
+				5E7D458D2E28F5E3007A6B7A /* Views */,
+				5E7D45892E28EAFB007A6B7A /* Helpers */,
+				5E7D45832E28E1EF007A6B7A /* Extensions */,
+				5E7D457B2E28CFEC007A6B7A /* Resources */,
+				5E7D45792E28CFB3007A6B7A /* Components */,
+				5E7D45712E28CF01007A6B7A /* Schedule */,
+				5E7D45672E28CEC1007A6B7A /* AppadoreApp.swift */,
+				5E7D45682E28CEC1007A6B7A /* Assets.xcassets */,
+			);
+			path = Appadore;
+			sourceTree = "<group>";
+		};
+		5E7D45702E28CF01007A6B7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5E7D45762E28CF5C007A6B7A /* ScheduleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5E7D45712E28CF01007A6B7A /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				5E7D45952E291149007A6B7A /* Model */,
+				5E7D457F2E28D8D9007A6B7A /* ViewModel */,
+				5E7D45702E28CF01007A6B7A /* View */,
+			);
+			path = Schedule;
+			sourceTree = "<group>";
+		};
+		5E7D45792E28CFB3007A6B7A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				5E7D45902E28FA61007A6B7A /* FlagsChallengeHeader.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5E7D457B2E28CFEC007A6B7A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5E7D45B62E296C88007A6B7A /* UserDefault */,
+				5E7D45A92E2957FB007A6B7A /* JSON */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5E7D457F2E28D8D9007A6B7A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5E7D45802E28D8EA007A6B7A /* AppManager.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5E7D45832E28E1EF007A6B7A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5E7D45842E28E200007A6B7A /* Color+Extensions.swift */,
+				5E7D45862E28EAC5007A6B7A /* View+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		5E7D45892E28EAFB007A6B7A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5E7D458A2E28EAFE007A6B7A /* StrokeModifier.swift */,
+				5E7D45922E290A65007A6B7A /* CustomRoundedShape.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5E7D458D2E28F5E3007A6B7A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E7D458E2E28F5EC007A6B7A /* TimerView.swift */,
+				5E7D45982E2951A3007A6B7A /* GameOverView.swift */,
+				5E7D459A2E2951AF007A6B7A /* TotalScoreView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5E7D45952E291149007A6B7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E7D45962E291154007A6B7A /* FlagsChallenge.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5E7D45A92E2957FB007A6B7A /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				5E7D457C2E28D55D007A6B7A /* questions.json */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		5E7D45B62E296C88007A6B7A /* UserDefault */ = {
+			isa = PBXGroup;
+			children = (
+				5E7D45B72E296C95007A6B7A /* ScheduleStorage.swift */,
+			);
+			path = UserDefault;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +194,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				5E7D453C2E28C833007A6B7A /* Appadore */,
 			);
 			name = Appadore;
 			packageProductDependencies = (
@@ -94,6 +226,8 @@
 			);
 			mainGroup = 5E7D45312E28C833007A6B7A;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 5E7D453B2E28C833007A6B7A /* Products */;
 			projectDirPath = "";
@@ -109,6 +243,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E7D456D2E28CEC1007A6B7A /* Assets.xcassets in Resources */,
+				5E7D457D2E28D55D007A6B7A /* questions.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +255,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E7D45812E28D8EA007A6B7A /* AppManager.swift in Sources */,
+				5E7D45992E2951A3007A6B7A /* GameOverView.swift in Sources */,
+				5E7D459B2E2951AF007A6B7A /* TotalScoreView.swift in Sources */,
+				5E7D456B2E28CEC1007A6B7A /* AppadoreApp.swift in Sources */,
+				5E7D45B82E296C95007A6B7A /* ScheduleStorage.swift in Sources */,
+				5E7D458F2E28F5EC007A6B7A /* TimerView.swift in Sources */,
+				5E7D45772E28CF5C007A6B7A /* ScheduleView.swift in Sources */,
+				5E7D45872E28EAC5007A6B7A /* View+Extensions.swift in Sources */,
+				5E7D458B2E28EAFE007A6B7A /* StrokeModifier.swift in Sources */,
+				5E7D45912E28FA61007A6B7A /* FlagsChallengeHeader.swift in Sources */,
+				5E7D45972E291154007A6B7A /* FlagsChallenge.swift in Sources */,
+				5E7D45852E28E200007A6B7A /* Color+Extensions.swift in Sources */,
+				5E7D45932E290A65007A6B7A /* CustomRoundedShape.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

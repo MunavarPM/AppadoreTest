@@ -8,11 +8,29 @@
 import SwiftUI
 
 struct GameOverView: View {
+    let score: Int
+    let onRestart: () -> Void
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("GAME OVER")
+                .font(.largeTitle)
+                .bold()
+                .padding(30)
+            Text("SCORE: \(score)/15")
+                .font(.title)
+                .padding(.bottom)
+            
+            Button(action: {
+                onRestart()
+            }) {
+                Text("Play Again")
+                    .foregroundColor(.white)
+                    .frame(width: 150, height: 45)
+                    .background(Color.orange)
+                    .cornerRadius(10)
+            }
+            .padding(.bottom)
+        }
     }
 }
 
-#Preview {
-    GameOverView()
-}
