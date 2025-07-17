@@ -22,6 +22,7 @@
 		5E7D45992E2951A3007A6B7A /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7D45982E2951A3007A6B7A /* GameOverView.swift */; };
 		5E7D459B2E2951AF007A6B7A /* TotalScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7D459A2E2951AF007A6B7A /* TotalScoreView.swift */; };
 		5E7D45B82E296C95007A6B7A /* ScheduleStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7D45B72E296C95007A6B7A /* ScheduleStorage.swift */; };
+		5E7D45BA2E299445007A6B7A /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7D45B92E299445007A6B7A /* AppConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		5E7D45982E2951A3007A6B7A /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
 		5E7D459A2E2951AF007A6B7A /* TotalScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TotalScoreView.swift; sourceTree = "<group>"; };
 		5E7D45B72E296C95007A6B7A /* ScheduleStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleStorage.swift; sourceTree = "<group>"; };
+		5E7D45B92E299445007A6B7A /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 			children = (
 				5E7D458A2E28EAFE007A6B7A /* StrokeModifier.swift */,
 				5E7D45922E290A65007A6B7A /* CustomRoundedShape.swift */,
+				5E7D45B92E299445007A6B7A /* AppConstants.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				5E7D458B2E28EAFE007A6B7A /* StrokeModifier.swift in Sources */,
 				5E7D45912E28FA61007A6B7A /* FlagsChallengeHeader.swift in Sources */,
 				5E7D45972E291154007A6B7A /* FlagsChallenge.swift in Sources */,
+				5E7D45BA2E299445007A6B7A /* AppConstants.swift in Sources */,
 				5E7D45852E28E200007A6B7A /* Color+Extensions.swift in Sources */,
 				5E7D45932E290A65007A6B7A /* CustomRoundedShape.swift in Sources */,
 			);

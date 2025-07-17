@@ -9,6 +9,8 @@ import SwiftUI
 import Foundation
 
 struct ScheduleView: View {
+    
+    @AppStorage("isGameScheduled") var isGameScheduled: Bool = false
     var timer: Int?
     @State private var hour: String = "0"
     @State private var minute: String = "0"
@@ -107,6 +109,7 @@ struct ScheduleView: View {
                                         let total = ScheduleStorage.shared.saveSchedule(hour: hourInt, minute: minuteInt, second: secondInt)
                                         appManagerVM.questionTimeRemaining = total
                                         appManagerVM.startCountdown()
+                                        appManagerVM.restoreGameState()
                                     }) {
                                         Text("Save")
                                             .font(.system(size: 18, weight: .bold))
@@ -160,7 +163,9 @@ struct ScheduleView: View {
         .onAppear {
             appManagerVM.loadQuestions()
             appManagerVM.restoreGameState()
-            appManagerVM.startQuestionTimer()
+            if isGameScheduled {
+                appManagerVM.startQuestionTimer()
+            }
         }
     }
     
