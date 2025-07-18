@@ -9,6 +9,5 @@ import Foundation
 
 enum AppConstants {
     static let countdownStartValue = 20
-    static let totalQuestions = 10
-    static let questionTimeLimit = 15
+    static let timeDelayBetweenQuestions = 10
 }

@@ -26,7 +26,7 @@ struct GameOverView: View {
                 Text("Play Again")
                     .foregroundColor(.white)
                     .frame(width: 150, height: 45)
-                    .background(Color.orange)
+                    .background(Color.standard.primary)
                     .cornerRadius(10)
             }
             .padding(.bottom)

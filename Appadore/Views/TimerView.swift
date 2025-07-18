@@ -86,17 +86,21 @@ struct TimerView: View {
                                             .cornerRadius(8)
                                     }
                                     .disabled(appManager.showingAnswer)
-                                    if appManager.showingAnswer {
-                                        if option.id == question.answerID {
-                                            Text("CORRECT")
-                                                .font(.system(size: 6))
-                                                .foregroundColor(.green)
-                                        } else if option.id == appManager.selectedAnswer {
-                                            Text("WRONG")
-                                                .font(.system(size: 6))
-                                                .foregroundColor(.red)
-                                        } else {
-                                            EmptyView()
+                                    .overlay(alignment: .bottom) {
+                                        if appManager.showingAnswer {
+                                            if option.id == question.answerID {
+                                                Text("CORRECT")
+                                                    .font(.system(size: 6))
+                                                    .foregroundColor(.green)
+                                                    .offset(y: 12)
+                                            } else if option.id == appManager.selectedAnswer {
+                                                Text("WRONG")
+                                                    .font(.system(size: 6))
+                                                    .foregroundColor(.red)
+                                                    .offset(y: 12)
+                                            } else {
+                                                EmptyView()
+                                            }
                                         }
                                     }
                                 }
@@ -160,5 +164,3 @@ struct TimerView: View {
         return Color.gray.opacity(0.4)
     }
 }
-
-

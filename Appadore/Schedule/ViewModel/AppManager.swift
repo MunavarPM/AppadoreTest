@@ -46,7 +46,6 @@ class AppManager: ObservableObject {
                 questions = Array(shuffledQuestions)
                 let questionIDs = questions.map { $0.id }
                 UserDefaults.standard.set(questionIDs, forKey: "questionIDs")
-                print("Loaded questions count: \(questions.count)")
             }
         } catch {
             print("Error loading questions: \(error)")
@@ -76,7 +75,7 @@ class AppManager: ObservableObject {
             if self.questionTimeRemaining == 0 {
                 t.invalidate()
                 self.showingAnswer = true
-                DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+                DispatchQueue.main.asyncAfter(deadline: .now() + Double(AppConstants.timeDelayBetweenQuestions)) {
                     self.nextQuestion()
                 }
             }
@@ -87,7 +86,6 @@ class AppManager: ObservableObject {
         currentQuestionIndex += 1
         if currentQuestionIndex >= questions.count {
             isGameOver = true
-//            deleteSavedState()
             return
         } else {
             startQuestionTimer()
